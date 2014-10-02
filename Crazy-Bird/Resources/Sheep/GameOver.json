@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0.0",
+  "designWidth": 1024,
+  "designHeight": 768,
+  "dataScale": 1.0,
+  "textures": [],
+  "texturesPng": [
+    "GameOver_BG.png",
+    "Button_Play.png"
+  ],
+  "nodeTree": {
+    "options": {
+      "$type": "EditorCommon.JsonModel.Component.GUI.RootGUISurrogate, EditorCommon",
+      "visible": true,
+      "frameEvent": null,
+      "name": "Node",
+      "classname": "Node"
+    },
+    "children": [
+      {
+        "options": {
+          "$type": "EditorCommon.JsonModel.Component.GUI.PanelSurrogate, EditorCommon",
+          "bgColorOpacity": 0,
+          "touchAble": true,
+          "visible": true,
+          "classType": "Panel",
+          "width": 200.0,
+          "height": 200.0,
+          "sizePercentX": 0.1953125,
+          "sizePercentY": 0.260416657,
+          "actionTag": 93971886,
+          "tag": 7,
+          "anchorPointX": 0.0,
+          "anchorPointY": 0.0,
+          "name": "Panel_GameOver",
+          "classname": "Panel"
+        },
+        "children": [
+          {
+            "options": {
+              "$type": "EditorCommon.JsonModel.Component.GUI.ImageViewSurrogate, EditorCommon",
+              "fileNameData": {
+                "resourceType": 0,
+                "path": "GameOver_BG.png",
+                "plistFile": ""
+              },
+              "scale9Width": 774.0,
+              "scale9Height": 497.0,
+              "x": 512.0,
+              "y": 399.0,
+              "visible": true,
+              "classType": "ImageView",
+              "width": 774.0,
+              "height": 497.0,
+              "positionPercentX": 2.56,
+              "positionPercentY": 1.995,
+              "sizePercentX": 0.4,
+              "sizePercentY": 0.4,
+              "actionTag": 881967744,
+              "tag": 8,
+              "ignoreSize": true,
+              "name": "ImageView_2",
+              "classname": "ImageView"
+            },
+            "children": [],
+            "classname": "ImageView"
+          },
+          {
+            "options": {
+              "$type": "EditorCommon.JsonModel.Component.GUI.ButtonSurrogate, EditorCommon",
+              "normalData": {
+                "resourceType": 0,
+                "path": "Button_Play.png",
+                "plistFile": ""
+              },
+              "pressedData": {
+                "resourceType": 0
+              },
+              "disabledData": {
+                "resourceType": 0
+              },
+              "text": "",
+              "capInsetsWidth": 1.0,
+              "capInsetsHeight": 1.0,
+              "scale9Width": 280.0,
+              "scale9Height": 140.0,
+              "x": 512.0,
+              "y": 229.0,
+              "touchAble": true,
+              "visible": true,
+              "classType": "Button",
+              "width": 280.0,
+              "height": 140.0,
+              "positionPercentX": 2.56,
+              "positionPercentY": 1.145,
+              "sizePercentX": 0.515,
+              "sizePercentY": 0.2,
+              "actionTag": 275308842,
+              "tag": 9,
+              "ignoreSize": true,
+              "name": "Button_Play",
+              "classname": "Button"
+            },
+            "children": [],
+            "classname": "Button"
+          }
+        ],
+        "classname": "Panel"
+      }
+    ],
+    "classname": "Node"
+  },
+  "action": {
+    "speed": 1.0,
+    "timelines": []
+  }
+}
